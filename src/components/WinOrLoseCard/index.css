@@ -1,0 +1,58 @@
+.win-or-lose-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  }
+}
+
+.trophy-image {
+  width: 60%;
+}
+
+.your-score-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.final-score {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.play-again-button {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #cf60c8;
+  border-radius: 10px;
+  display: flex;
+}
+
+.reset-button {
+  margin-right: 8px;
+}
